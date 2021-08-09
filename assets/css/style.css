@@ -21,6 +21,7 @@ header h1{
     margin: 0;
     font-weight: bold;
     padding: 2px 10px 2px 75px;
+    color: rgba(43, 43, 43, 0.8);
 }
 
 header a{
@@ -54,3 +55,22 @@ header nav ul li a{
     text-decoration: none;
 }
 /*END OF HEADER*/
+
+/*START OF HERO*/
+.Hero{
+    background-image: url('https://www.wallpapertip.com/wmimgs/83-838381_html-wallpaper-background-code-coding-tags.jpg');
+    background-size:cover;
+    background-position: center;
+    width: auto;
+    height: 200px;
+}
+
+.Subtitle{
+    background-color: paleturquoise;
+    float:right;
+    position: relative; left: -200px; bottom: -150px;
+    font-size: 22px;
+    color: rgba(43, 43, 43, 0.8);
+    padding: 0px 10px;
+}
+/*END OF HERO*/
