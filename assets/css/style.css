@@ -63,15 +63,18 @@ header nav ul li a{
     background-position: center;
     width: auto;
     height: 200px;
+    display: flex;
 }
 
 .Subtitle{
     background-color: paleturquoise;
     float:right;
-    position: relative; left: -200px; bottom: -150px;
+    position: absolute; right: 6.5%; top: 28%;
     font-size: 22px;
     color: rgba(43, 43, 43, 0.8);
     padding: 0px 10px;
+    display: flex;
+    flex-direction: initial;
 }
 /*END OF HERO*/
 
@@ -204,3 +207,54 @@ header nav ul li a{
     top: 130%;
     border: 4px solid paleturquoise;
 }
+/*END OF WORK SECTION*/
+/*START OF CONTACT ME SECTION*/
+.Contact-Me h2{
+    font-size: 58px;
+    font-weight: bolder;
+    text-align: right; 
+    position:absolute;
+    left: 8%;
+    bottom: -70%;
+}
+
+.vertical-line{
+    border-right: 3px solid rgba(43, 43, 43, 0.8);
+    height: 180px;
+    position: absolute;
+    left: 23%;
+    bottom: -77%;
+}
+
+.info{
+    font-size: 22px;
+    font-weight: bold;
+    justify-content: space-between;
+    align-items: center;
+    text-decoration: 4px solid underline;
+}
+
+.number{
+    position: absolute;
+    left: 30%;
+    bottom: -65%;
+    text-decoration: 4px solid underline;
+    list-style: none; 
+}
+
+.email{
+    position: absolute;
+    left: 50%;
+    bottom: -65%;
+    text-decoration: 4px solid underline;
+    list-style: none;
+}
+
+.github{
+    position: absolute;
+    left: 80%;
+    bottom: -65%;
+    text-decoration: 4px solid underline;
+    list-style: none;
+}
+/*END OF CONTACT ME SECTION*/
