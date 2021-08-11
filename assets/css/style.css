@@ -13,46 +13,37 @@ header{
     background-color: rgb(66, 66, 66);
     display: flex;
     justify-content: space-between;
+    flex-wrap: wrap;
 }
 
 header h1{
     background-color: paleturquoise;
     font-size: 45px;
-    margin: 0;
+    margin-left: 0;
+    padding-left: 50px;
+    padding-right: 10px;
     font-weight: bold;
-    padding: 2px 10px 2px 75px;
     color: rgba(43, 43, 43, 0.8);
 }
 
 header a{
     color: paleturquoise;
-    padding: 10px 20px;
 }
 
 header nav{
     margin: 7px 0;
 }
 
-header nav ul{
-    display: flex;
-    flex-wrap:wrap;
-    justify-content: space-between;
-    align-items: center;
-    list-style: none;
-}
-
 header nav ul li{
-    padding: 2px 5px;
+    display: inline;
 }
 
 header nav ul li a{
-    padding: 0 4px;
     font-size: 22px;
-    padding-bottom: 5px;
-    border-bottom: 3px solid;
-    line-height: 48px;
     font-weight: lighter;
     text-decoration: none;
+    margin: 0 5px;
+    border-bottom: 2px solid paleturquoise;
 }
 /*END OF HEADER*/
 
